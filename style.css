@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items:center ;
+  min-height: 100vh;
+  background-image: url(./img/background.pnj.jpg);
+  background-size:cover;
+  background-position: top;
+
+}
+
+.Menu {
+  box-shadow: 0 0 15px black;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  background-color: rgb(60, 0, 255,0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+h2 {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+.user,
+.pas,
+.mail {
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0 0 5px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.user input,
+.pas input,
+.mail input {
+  width: 85%;
+  height: 40px;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+  padding: 25px 20px 25px 30px;
+  color: black;
+  font-size: 18px;
+  outline: none;
+
+}
+.user input::placeholder,
+.pas input::placeholder,
+.mail input::placeholder {
+  color: black;
+  text-align: left;
+  border: none;
+
+}
+
+.user i,
+.pas i,
+.mail i {
+  font-size: 28px;
+  position: absolute;
+  padding-top: 10px;
+  right: 45px;
+  color: black;
+  }
+
+.rem {
+  margin: 30px 10px;
+  font-size: 16px;
+  color: white;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 10px;
+  accent-color: rgb(60, 0, 255,0.3);
+}
+
+.rem a {
+  margin-left: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  margin-left: 120px;
+  margin-top: 0px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  font-size: 24px;
+  box-shadow: 0 0 10px black;
+  font-weight: 700;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0) inset;
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0) inset;
+  -webkit-text-fill-color: black;
+  transition: background-color 9999s ease-in-out 0s;
+  font-size: 20px;
+  border: none;
+}
+
+.car{
+  height: 500px;
+  margin: 0px;
+  margin-right: -200px;
+  position: relative;
+}
+
+
